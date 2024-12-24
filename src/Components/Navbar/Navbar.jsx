@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import DarkMode from "../DarkMode";
+import DarkMode from "./DarkMode";
+
 const Navbar = () => {
   return (
     <div>
