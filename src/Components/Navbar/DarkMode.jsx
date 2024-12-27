@@ -29,17 +29,17 @@ const DarkMode = () => {
       <div className="relative">
         <img
           src={darkImg}
-          alt=""
+          alt="dark"
           onClick={changeTheme}
-          className={`w-12 absolute right-0 z-10 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 bg-transparent ${
+          className={`w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 absolute right-0 z-10 hidden md:flex  ${
             theme === "dark" ? "opacity-0" : "opacity-100"
           } `}
         />
         <img
           src={lightImg}
-          alt=""
+          alt="light"
           onClick={changeTheme}
-          className="w-12  right-0 z-10 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300"
+          className="w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] duration-300"
         />
       </div>
     </>
