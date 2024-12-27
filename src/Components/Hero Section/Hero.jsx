@@ -16,7 +16,7 @@ const Hero = () => {
             Aurora's life is a delightful journey filled with love, mischief,
             and endless cuddles.
           </p>
-          <button className="mt-6 px-4 py-2 flex items-center justify-center bg-gray-200 text-black rounded shadow hover:bg-gray-800 hover:text-white hover:underline dark:bg-gray-950 dark:text-white dark:hover:bg-white dark:hover:text-black duration-200">
+          <button className="mt-6 px-4 py-2 flex items-center justify-center bg-gray-200 text-black rounded-full  hover:bg-gray-800 hover:text-white hover:underline dark:bg-gray-950 dark:text-white dark:hover:bg-white dark:hover:text-black duration-200">
             View Gallery
           </button>
         </div>
