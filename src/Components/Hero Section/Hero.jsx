@@ -6,9 +6,9 @@ const Hero = () => {
     <div>
       <div className="h-screen flex items-center bg-gradient-to-r from-blue-500 to-blue-300">
         {/* Left Section (Text Content) */}
-        <div className="w-1/2 p-8 text-white">
+        <div className="w-1/2 p-8 text-black dark:gray-950 dark:text-white duration-200">
           <h1 className="text-6xl font-bold mt-[-50px] pt-[-50px]">
-            Welcome to <br /> Aurora's Kingdom!
+            Welcome to Aurora's Kingdom!
           </h1>
           <p className="mt-4 text-xl">
             Here, you'll discover the playful and curious world of my beloved
@@ -16,7 +16,7 @@ const Hero = () => {
             Aurora's life is a delightful journey filled with love, mischief,
             and endless cuddles.
           </p>
-          <button className="mt-6 px-4 py-2 flex items-center justify-center bg-secondary text-black rounded shadow hover:bg-pink-700 hover:text-white hover:underline">
+          <button className="mt-6 px-4 py-2 flex items-center justify-center bg-gray-200 text-black rounded shadow hover:bg-gray-800 hover:text-white hover:underline dark:bg-gray-950 dark:text-white dark:hover:bg-white dark:hover:text-black duration-200">
             View Gallery
           </button>
         </div>
