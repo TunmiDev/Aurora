@@ -3,36 +3,35 @@ import About from "../../assets/About.jpg";
 
 const AboutUs = () => {
   return (
-    <div>
-      <div className="h-screen flex items-center relative">
-        {/*right-section*/}
-        <div className="w-1/2">
+    <div className="p-6">
+      <div className="flex flex-col sm:flex-row items-center sm:items-start md:h-screen space-y-8 sm:space-y-0 mt-20">
+        {/* Right Section (Image) */}
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
             src={About}
             alt="bird"
-            className="object-cover h-96 w-96 rounded-lg  m-10"
+            className="object-cover h-80 w-80 sm:h-96 sm:w-96 rounded-lg"
           />
         </div>
-        {/*left-section*/}
-        <div className="w-1/2 ">
-          <div class="flex items-center">
-            <div>
-              <h2 class="text-2xl font-bold mb-2 mt-6">
-                Her Royal Furriness:Aurora's story
-              </h2>
-              <p>
-                Princessa is not just a cat, she's little qeen! I adopted her
-                when she was just a kitten, and since then, she has taken over
-                my heart and home. With her soft fur and delicate meows, she
-                rules with grace. Her favorite hobby? Sunbathing by the window
-                or chasing after shadows—it’s hard not to admire her playful yet
-                regal personality."
-              </p>
-              <button className="mt-6 px-4 py-2 flex items-center justify-center bg-gray-200 text-black rounded-full  hover:bg-gray-800 hover:text-white hover:underline dark:bg-gray-950 dark:text-white dark:hover:bg-white dark:hover:text-black duration-200">
-                Read More
-              </button>
-            </div>
-          </div>
+        {/* Left Section (Text) */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <h2 className="text-3xl md:text-6xl font-bold text-blue-500">
+            Her Royal Furriness:
+            <br />
+            Aurora's story
+          </h2>
+          <p className="text-gray-500 text-lg sm:text-xl pt-6 sm:pt-8">
+            "Aurora is not just a bird, she's little queen! I adopted her
+            <br />
+            when she was just a chick, and since then, she has taken <br />
+            over my heart and home. With her soft fur and delicate <br />
+            chirps, she rules with grace. Her favorite hobby? <br />
+            Sunbathing by the window or chasing after shadows. <br />
+            It's hard not to admire her playful yet regal personality."
+          </p>
+          <button className="mt-6 px-6 py-3 bg-gray-200 text-black rounded-full hover:bg-gray-800 hover:text-white dark:bg-gray-950 dark:text-white dark:hover:bg-white dark:hover:text-black duration-200">
+            Read More
+          </button>
         </div>
       </div>
     </div>
