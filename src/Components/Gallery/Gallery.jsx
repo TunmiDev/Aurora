@@ -6,19 +6,35 @@ import photo4 from "../../assets/photo4.jpg";
 
 const AuroraPhotos = () => {
   return (
-    <div className="relative h-screen flex-col  bg-gradient-to-r from-blue-500 to-blue-300">
+    <div className="relative min-h-screen flex flex-col bg-gradient-to-r from-blue-500 to-blue-300">
       {/* Text at the Top Center */}
       <div>
-        <h1 className="relative inset-x-0 top-10 text-6xl sm:text-5xl font-bold text-black dark:text-white text-center ">
+        <h1 className="relative inset-x-0 top-10 text-4xl sm:text-5xl md:text-6xl font-bold text-black dark:text-white text-center">
           Aurora's Photos
         </h1>
       </div>
-      {/*Images*/}
-      <div className=" flex  gap-9  items-center sm:flex-row justify-between inset-x-0  absolute mt-40 mx-12 ">
-        <img src={photo1} alt="bird pic" className="rounded-lg h-64 w-64 " />
-        <img src={photo2} alt="bird pic" className="rounded-lg h-64 w-64" />
-        <img src={photo3} alt="bird pic" className="rounded-lg h-64 w-64" />
-        <img src={photo4} alt="bird pic" className="rounded-lg h-64 w-64" />
+      {/* Images */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-20 mx-auto max-w-screen-lg px-4">
+        <img
+          src={photo1}
+          alt="bird pic"
+          className="w-full h-64 object-cover rounded-lg"
+        />
+        <img
+          src={photo2}
+          alt="bird pic"
+          className="w-full h-64 object-cover rounded-lg"
+        />
+        <img
+          src={photo3}
+          alt="bird pic"
+          className="w-full h-64 object-cover rounded-lg"
+        />
+        <img
+          src={photo4}
+          alt="bird pic"
+          className="w-full h-64 object-cover rounded-lg"
+        />
       </div>
     </div>
   );
