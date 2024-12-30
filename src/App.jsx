@@ -4,6 +4,7 @@ import Hero from "./Components/Hero Section/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import AboutUs from "./Components/About Us/AboutUs";
 import Gallery from "./Components/Gallery/Gallery";
+import FunFact from "./Components/FunFact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <AboutUs />
       <Gallery />
+      <FunFact />
     </div>
   );
 }
