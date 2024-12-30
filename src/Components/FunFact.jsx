@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../assets/About.jpg";
+import Fact from "../assets/fact.jpg";
 
 const FunFact = () => {
   return (
@@ -10,27 +10,27 @@ const FunFact = () => {
           {" "}
           {/* Added padding-left */}
           <h2 className="text-3xl md:text-6xl font-bold text-blue-500">
-            Her Royal Furriness:
+            Fun Facts About
             <br />
-            Aurora's story
+            Aurora
           </h2>
           <p className="text-gray-500 text-lg sm:text-xl pt-6 sm:pt-8">
-            "Aurora is not just a bird, she's little queen! I adopted her
+            Aurora isn't just any bird—she's the heart of our home. With her
+            vibrant feathers, inquisitive eyes, and graceful demeanor, she truly
+            lives up to her royal name. Whether she's perched by the window,
+            chirping a tune, or playfully flitting around, Aurora fills our home
+            with warmth and joy at every turn.
             <br />
-            when she was just a chick, and since then, she has taken <br />
-            over my heart and home. With her soft fur and delicate <br />
-            chirps, she rules with grace. Her favorite hobby? <br />
-            Sunbathing by the window or chasing after shadows. <br />
-            It's hard not to admire her playful yet regal personality."
+            As a true feathered queen, she has her favorite spot (the sunniest
+            corner) and reigns with a delicate yet confident presence. Her
+            charming personality and affectionate nature make her the perfect
+            companion, reminding us daily that love, like royalty, is timeless.
           </p>
-          <button className="mt-6 px-6 py-3 bg-gray-200 text-black rounded-full hover:bg-gray-800 hover:text-white dark:bg-gray-950 dark:text-white dark:hover:bg-white dark:hover:text-black duration-200">
-            Read More
-          </button>
         </div>
         {/* Left Section (Image) */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src={About}
+            src={Fact}
             alt="bird"
             className="object-cover h-80 w-80 md:h-96 md:w-96 rounded-lg"
           />
