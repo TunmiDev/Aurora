@@ -10,7 +10,7 @@ const AboutUs = () => {
           <img
             src={About}
             alt="bird"
-            className="object-cover h-80 w-80 sm:h-96 sm:w-96 rounded-lg"
+            className="object-cover h-80 w-80 md:h-96 md:w-96 rounded-lg"
           />
         </div>
         {/* Left Section (Text) */}

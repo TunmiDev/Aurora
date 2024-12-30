@@ -6,10 +6,10 @@ import photo4 from "../../assets/photo4.jpg";
 
 const AuroraPhotos = () => {
   return (
-    <div className="relative min-h-screen flex flex-col bg-gradient-to-r from-blue-500 to-blue-300">
+    <div className="relative min-h-screen flex flex-col bg-gradient-to-r from-blue-500 to-blue-300 ">
       {/* Text at the Top Center */}
       <div>
-        <h1 className="relative inset-x-0 top-10 text-4xl sm:text-5xl md:text-6xl font-bold text-black dark:text-white text-center">
+        <h1 className="relative inset-x-0 top-10 text-4xl sm:text-3xl md:text-6xl font-bold text-black dark:text-white text-center">
           Aurora's Photos
         </h1>
       </div>
