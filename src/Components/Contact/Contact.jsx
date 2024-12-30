@@ -38,7 +38,6 @@ const Contact = () => {
 
         <div className="mt-6 flex justify-center w-full md:w-1/2">
           <form onSubmit={handleSubmit}>
-            {/* Step 3: Input fields */}
             <div className="form-group">
               <label htmlFor="name">Name:</label>
               <input
