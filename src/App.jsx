@@ -6,6 +6,7 @@ import AboutUs from "./Components/About Us/AboutUs";
 import Gallery from "./Components/Gallery/Gallery";
 import FunFact from "./Components/FunFact";
 import Blog from "./Components/Blog";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Gallery />
       <FunFact />
       <Blog />
+      <Contact />
     </div>
   );
 }
