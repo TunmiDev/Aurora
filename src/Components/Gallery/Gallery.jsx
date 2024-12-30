@@ -6,19 +6,19 @@ import photo4 from "../../assets/photo4.jpg";
 
 const AuroraPhotos = () => {
   return (
-    <div className="relative h-screen bg-gradient-to-r from-blue-500 to-blue-300">
+    <div className="relative h-screen flex-col  bg-gradient-to-r from-blue-500 to-blue-300">
       {/* Text at the Top Center */}
       <div>
-        <h1 className="relative inset-x-0 top-10 text-6xl font-bold text-black dark:text-white text-center ">
+        <h1 className="relative inset-x-0 top-10 text-6xl sm:text-5xl font-bold text-black dark:text-white text-center ">
           Aurora's Photos
         </h1>
       </div>
       {/*Images*/}
-      <div className="w-64 h-64 flex  items-center justify-between inset-x-0 rounded-lg absolute mt-40">
-        <img src={photo1} alt="bird pic" />
-        <img src={photo2} alt="bird pic" />
-        <img src={photo3} alt="bird pic" />
-        <img src={photo4} alt="bird pic" />
+      <div className=" flex  gap-9  items-center sm:flex-row justify-between inset-x-0  absolute mt-40 mx-12 ">
+        <img src={photo1} alt="bird pic" className="rounded-lg h-64 w-64 " />
+        <img src={photo2} alt="bird pic" className="rounded-lg h-64 w-64" />
+        <img src={photo3} alt="bird pic" className="rounded-lg h-64 w-64" />
+        <img src={photo4} alt="bird pic" className="rounded-lg h-64 w-64" />
       </div>
     </div>
   );
