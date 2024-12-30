@@ -14,26 +14,26 @@ const AuroraPhotos = () => {
         </h1>
       </div>
       {/* Images */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-20 mx-auto max-w-screen-lg px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-6 mt-20 mx-auto max-w-screen-lg px-4">
         <img
           src={photo1}
           alt="bird pic"
-          className="w-full h-64 object-cover rounded-lg"
+          className="w-80 h-80 object-cover rounded-lg"
         />
         <img
           src={photo2}
           alt="bird pic"
-          className="w-full h-64 object-cover rounded-lg"
+          className="w-80 h-80 object-cover rounded-lg"
         />
         <img
           src={photo3}
           alt="bird pic"
-          className="w-full h-64 object-cover rounded-lg"
+          className="w-80 h-80 object-cover rounded-lg"
         />
         <img
           src={photo4}
           alt="bird pic"
-          className="w-full h-64 object-cover rounded-lg"
+          className="w-80 h-80 object-cover rounded-lg"
         />
       </div>
     </div>
