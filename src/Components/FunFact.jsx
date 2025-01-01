@@ -4,7 +4,7 @@ import Fact from "../assets/fact.jpg";
 const FunFact = () => {
   return (
     <div className="p-6">
-      <div className="flex flex-col sm:flex-row items-center sm:items-start md:h-screen space-y-8 sm:space-y-0 mt-20">
+      <div className="flex flex-col sm:flex-row items-center sm:items-start md:h-screen  sm:space-y-0 ">
         {/* Right Section (Text) */}
         <div className="w-full md:w-1/2 text-center md:text-left pl-6 sm:pl-12 md:pl-20">
           {" "}
