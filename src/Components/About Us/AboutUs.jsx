@@ -3,8 +3,8 @@ import About from "../../assets/About.jpg";
 
 const AboutUs = () => {
   return (
-    <div className="p-6">
-      <div className="flex flex-col sm:flex-row items-center sm:items-start md:h-screen space-y-8 sm:space-y-0 mt-20">
+    <div>
+      <div className="flex flex-col sm:flex-row items-center sm:items-start md:h-screen space-y-3 sm:space-y-0 mt-20">
         {/* Right Section (Image) */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
@@ -21,7 +21,7 @@ const AboutUs = () => {
             Aurora's story
           </h2>
           <p className="text-gray-500 text-lg sm:text-xl pt-6 sm:pt-8">
-            "Aurora is not just a bird, she's little queen! I adopted her
+            "Aurora is not just a bird, she's a little queen! I adopted her
             <br />
             when she was just a chick, and since then, she has taken <br />
             over my heart and home. With her soft fur and delicate <br />
