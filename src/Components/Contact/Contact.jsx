@@ -9,15 +9,13 @@ const Contact = () => {
         </h2>
 
         {/* Container for Map and Form */}
-        <div className="mt-6 flex flex-col md:flex-row justify-center items-start gap-8 w-full px-4">
+        <div className="mt-6 flex flex-col md:flex-row justify-center items-center gap-8 w-full px-4 md:px-8">
           {/* Google Maps */}
           <div className="flex-1">
             <iframe
-              title="Google Maps Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.846958497936!2d3.3749185739748824!3d6.5410022229618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8da734a9f3e9%3A0x262c8e61050a9774!2s25%20Omoalade%20Alafia%20St%2C%20Somolu%2C%20Lagos%20102216%2C%20Lagos!5e0!3m2!1sen!2sng!4v1735528704493!5m2!1sen!2sng"
-              width="100%"
-              height="450"
-              className="border-0 rounded-md shadow-md"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.46310731795!2d3.1191424086628565!3d6.548369371686134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1735770029764!5m2!1sen!2sng"
+              className="w-full md:w-[600px] h-[300px] md:h-[450px]"
+              style={{ border: "0" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -25,7 +23,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="flex-1">
+          <div className="flex-1 w-full max-w-lg self-center">
             <form className="bg-white p-6 rounded-md shadow-md">
               <div className="mb-4">
                 <label
@@ -68,7 +66,6 @@ const Contact = () => {
                   id="phoneInput"
                   type="tel"
                   placeholder="Enter your phone number..."
-                  pattern="[0-9]{10}"
                   required
                   className="w-full border border-gray-300 rounded-md p-2 mt-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
