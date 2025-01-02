@@ -3,7 +3,7 @@ import About from "../../assets/About.jpg";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id="aboutUs">
       <div className="flex flex-col sm:flex-row items-center sm:items-start md:h-screen space-y-3 sm:space-y-0 mt-20">
         {/* Right Section (Image) */}
         <div className="w-full md:w-1/2 flex justify-center">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <div className="relative min-h-screen flex flex-col bg-gradient-to-r from-blue-300 to-blue-100">
         <h2 className="relative inset-x-0 top-3 text-4xl sm:text-3xl md:text-6xl font-bold text-black dark:text-white text-center">
           Contact Us

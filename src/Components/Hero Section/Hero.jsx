@@ -3,7 +3,7 @@ import background from "../../assets/bg.png";
 
 const Hero = () => {
   return (
-    <div>
+    <div id="hero">
       <div className="h-screen flex items-center bg-gradient-to-r from-blue-500 to-blue-300">
         {/* Left Section (Text Content) */}
         <div className="w-full sm:w-1/2 p-8 text-black dark:gray-950 dark:text-white duration-200">
