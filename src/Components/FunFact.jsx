@@ -32,7 +32,7 @@ const FunFact = () => {
           <img
             src={Fact}
             alt="bird"
-            className="object-cover h-80 w-80 md:h-96 md:w-96 rounded-lg"
+            className="object-cover h-96 w-96 md:h-96 md:w-96 rounded-lg"
           />
         </div>
       </div>
